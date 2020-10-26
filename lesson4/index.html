@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Интернет-магазин</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/main.js"></script>
+
+</head>
+<body>
+<header>
+    <div class="logo">Интернет-магазин</div>
+    <div class="cart">
+        <form action="#" class="search-form">
+            <input type="text" class="search-field">
+            <button class="btn-search" type="submit">
+                <i class="fas fa-search"></i>
+            </button>
+        </form>
+        <button class="btn-cart" type="button">Корзина</button>
+        <div class="cart-block invisible"></div>
+    </div>
+</header>
+<main>
+    <div class="products"></div>
+    
+</main>
+<div id="wrapper">
+    <form id="form" class="form">
+        <div class="form__header">Заполните форму обратной связи</div>
+        <input id="form__input-name" class="form__input"  name="name" placeholder="Имя..." type="text"/>
+        <input id="form__input-phone" class="form__input"  name="phone" placeholder="Номер телефона..." type="phone">
+        <input id="form__input-email" class="form__input"  name="emailaddress" placeholder="E-mail..." type="email"/>
+        <textarea id="form__text" name="text" class="form__text" rows="20" cols="40" placeholder="Текст..."></textarea>
+       <input id="form__button-submit" class="form__button" name="submit" type="button" value="Отправить"/>
+    </form>
+</div>
+
+
+<script defer src="https://use.fontawesome.com/releases/v5.7.2/js/all.js" integrity="sha384-0pzryjIRos8mFBWMzSSZApWtPl/5++eIfzYmTgBBmXYdhvxPc+XcFEk+zJwDgWbP" crossorigin="anonymous"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
